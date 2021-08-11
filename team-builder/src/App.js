@@ -15,15 +15,15 @@ const defaultValues = {
 console.log(defaultValues);
 
 const App = () => {
-	const [teamList, setTeamList] = useState([]);
+	const [teamList, setTeamList] = useState(team);
 
 	const [formValues, setFormValues] = useState(defaultValues);
 	return (
 		<div>
-			<h1>Hello worrld</h1>
+			<h1>Team Members</h1>
 
-			{team.map(user => {
-				return <Members />;
+			{teamList.map(user => {
+				return <Members key={user.email} info={user} />;
 			})}
 		</div>
 	);
