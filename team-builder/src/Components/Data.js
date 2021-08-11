@@ -1,23 +1,27 @@
 const team = [
 	{
-		name: '',
-		role: '',
-		email: '',
+		name: 'Blake Deeer',
+		age: '26',
+		role: 'Duck Hunter',
+		email: 'blakehunt@quack.com',
 	},
 	{
-		name: '',
-		role: '',
-		email: '',
+		name: 'Bob Summy',
+		age: '36',
+		role: 'Doctor',
+		email: 'BobMed@med.com',
 	},
 	{
-		name: '',
-		role: '',
-		email: '',
+		name: 'Ken Smith',
+		age: '31',
+		role: 'Artist',
+		email: 'kenArt@art.com',
 	},
 	{
-		name: '',
-		role: '',
-		email: '',
+		name: 'Sam Lopez',
+		age: '24',
+		role: 'Detective',
+		email: 'samFindsClues@mystery.com',
 	},
 ];
 
