@@ -2,7 +2,7 @@ import React from 'react';
 
 const Members = props => {
 	const { info } = props;
-	console.log('Our props', props);
+	// console.log('Our props', props);
 	return (
 		<div>
 			<h3>Team Memeber: {info.name}</h3>
